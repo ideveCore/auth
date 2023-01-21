@@ -1,0 +1,1 @@
+export const secret = "8edb9a8cc2c468e53f2a9b8764013b1d"

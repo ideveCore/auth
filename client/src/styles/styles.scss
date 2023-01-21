@@ -1,0 +1,21 @@
+.controls {
+  width: 90%;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: var(--border-radius);
+
+  & .btn {
+    padding: var(--padding);
+    height: 100%;
+    width: 48%;
+    border-radius: var(--border-radius);
+    background-color: rgb(var(--white-color));
+    color: rgb(var(--text-color));
+    &.active {
+      background-color: rgb(var(--primary-color));
+      color: rgb(255, 255, 255);
+    }
+  }
+}
